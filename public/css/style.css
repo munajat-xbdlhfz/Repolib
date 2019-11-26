@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    background-size: 100%;
+    font-size: 18px;
+    height: 100%;
+    min-width: 100%;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #172b4d;
+    color: #8898aa;
+    text-align: center;
+ }
+
+ .footer a {
+     color: #5e72e4;
+ }
+
+.button-submit button {
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.carousel-inner img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    max-height: 200px;
+    min-height: 200px;
+
+}
+.input-group button{
+    margin: 10%;
+}
+
+#inlineRadio1 {
+    margin: 10px;
+}
+
+#pekerjaan1 {
+    margin: 10px;
+}
+
+.form-group {
+    text-align: left;
+}
+
