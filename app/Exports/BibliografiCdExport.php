@@ -38,7 +38,7 @@ class BibliografiCdExport implements FromView, ShouldAutoSize
                         ->select(
                             'bibliografis.*', 'cds.*', 'songwriters.name AS pencipta', 
                             'genres.*', 'locations.*', 'source_types.*', 'languages.*',
-                            'categories.*', 'users.*',
+                            'categories.*', 'users.*'
                             )
                         ->orderBy('bibliografis.tanggal_pengadaan', 'ASC')
                         ->get(),
@@ -63,7 +63,7 @@ class BibliografiCdExport implements FromView, ShouldAutoSize
                         ->select(
                             'bibliografis.*', 'cds.*', 'songwriters.name AS pencipta', 
                             'genres.*', 'locations.*', 'source_types.*', 'languages.*',
-                            'categories.*', 'users.*',
+                            'categories.*', 'users.*'
                             )
                         ->orderBy('bibliografis.tanggal_pengadaan', 'ASC')
                         ->get(),
